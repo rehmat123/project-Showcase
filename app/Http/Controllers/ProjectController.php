@@ -79,10 +79,28 @@ class ProjectController extends Controller
 
         return view('project.search',compact('project'));
     }
+
+     public function welcome(Request $request)
+    {
+        $project = Project::paginate(6);
+
+        if ($request->ajax()) {
+            $view = view('data',compact('project'))->render();
+            return response()->json(['html'=>$view]);
+        }
+
+        return view('project.search',compact('project'));
+    }
+
+
+
+
     
-     public function delete(){
-
-
+     public function delete(Request $request,$id){
+       $deleteproject = Project::find($id);
+       $deleteproject->delete();
+     $request->session()->flash('alert-success', 'Project was successful Deleted!');
+       return redirect('/home');
         
     }
 }

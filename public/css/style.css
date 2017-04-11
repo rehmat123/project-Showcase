@@ -19,6 +19,12 @@ body {
     margin-bottom: 0px !important;
     
 }
+.flash-message{
+    margin-top: 10px;
+}
+.btn-right{
+    float: right;
+}
 .row{
     margin-bottom: 20px;
 }

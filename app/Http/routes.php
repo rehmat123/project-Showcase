@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','ProjectController@welcome');
 
 Route::auth();
 
@@ -25,4 +23,5 @@ Route::get('project/all', 'ProjectController@all');
 Route::get('project/edit/{id}', 'ProjectController@edit');
 Route::any('project/{id}' ,['as' => 'project.update', 'uses' => 'ProjectController@update']);
 
+Route::get('project/delete/{id}', 'ProjectController@delete');
 

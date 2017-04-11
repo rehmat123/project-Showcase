@@ -12,9 +12,14 @@ foreach ($project as $projects){
                <div class="project_title"><h2>{{$projects['project_title'] }}</h2></div>
                <div class="project_description"><p>{{$projects['project_description'] }}</p>
                </div>
+                @if (Auth::check())
                <div class="actions clearfix">
                <button  onclick="location.href='/project/edit/{{$projects['id']}}';" class="button-project btn-primary btn">Edit</button>
+               <button  onclick="location.href='/project/delete/{{$projects['id']}}';" class="button-project btn-primary btn btn-right">Delete</button>
                </div>
+               @else
+                @endif
+
             </div>
          </div>
         
