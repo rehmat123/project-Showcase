@@ -50,7 +50,7 @@
                       <a href="{{ url('/home') }}">Home</a>
                     </li>
                     <li class="dropdown">
-                       <a href="/en/jobs"><i class="fa fa-fw fa-bullseye"></i> Projects <i class="fa fa-chevron-down"></i></a>
+                       <a href="/"><i class="fa fa-fw fa-bullseye"></i> Projects <i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown-content ">
                         <li><a href="/project/create"><i class="fa fa-fw fa-bullseye"></i> Add project</a></li>
                         <li role="separator" class="divider"></li>

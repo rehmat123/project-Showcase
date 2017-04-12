@@ -6,8 +6,10 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Project;
 use App\User;
+use App\Projecttype;
 use Auth;
 use Image;
+
 use Route;
 use Input;
 
@@ -15,7 +17,7 @@ class ProjectController extends Controller
 {
      public function create(){
         if (Auth::check()) {
-             $items = User::pluck('name', 'id');
+             $items = Projecttype::pluck('project_type', 'id');
         return view('project.create',compact('items'));
         }
         else{
@@ -44,7 +46,7 @@ class ProjectController extends Controller
     }
      public function edit($id) {
     $project = Project::find($id);
-    $items = User::pluck('name', 'id');
+    $items = Projecttype::pluck('project_type', 'id');
 
 
      return view('project.edit', compact('project'),compact('items'));
