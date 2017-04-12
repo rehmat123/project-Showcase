@@ -1,17 +1,32 @@
 body {
     font-family: 'Lato';
+    background-color:#223344 !important;
+    padding-bottom: 50px;
+    font-size: small;
+    font-family: arial, helvetica, sans-serif;
+    min-width: 960px;
+    color: #fff;
+    margin-top: 50px;
     }
 .fa-btn {
     margin-right: 6px;
     }
 .navbar-default-1{
-    background-color: #454545;
+    background: #de4e49;
     border: 0;
     border-radius: 0;
     }
+a{
+        color: white !important;
+    }
+.login{
+     margin-top: 98px;
+}
+.black{
+    color: blue !important;
+}
 .content{
     padding: 30px;
-    background-color: #f4f4f4;
 
     }
 .navbar {
@@ -29,20 +44,34 @@ body {
     margin-bottom: 20px;
 }
 .project_content{
-    background-color: white;
+    background: #4a5866;
+    color: white;
+    padding: 3.5rem 1.5rem 1.5rem 1.5rem;
+    font-size: 15px;
+}
+h1{
+    color: #e6af73 !important;
+    font-size: 36px !important;
+    font-weight: normal;
+    letter-spacing: 1px !important;
+    text-align: center;
 }
 .content form fieldset {
     margin: 0 0 5rem 0;
     background-color: #f7f7f7;
+    padding: 20px 0 20px 10px;
 }
 .form-group {
     padding-left: 10px;
     padding-right: 10px;
 }
+.dropdown-menu{
+    background-color: #de4e49 !important;
+}
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #de4e49;
     min-width: 160px;
     padding: 12px 16px;
     z-index: 1;
@@ -57,17 +86,19 @@ body {
     border: 1px solid rgba(0,0,0,0.15);
     
 }
+.white{
+    color: white;
+}
 .dropdown-content > li{
     padding: 4px;
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.project_content {
-    padding: 3.5rem 1.5rem 1.5rem 1.5rem;
-    color: #555;
-    font-size: 15px;
+.dropdown:hover > a , li > a:hover{
+    color: black !important;
 }
+
 .project_content div h2{
     font-size: 2rem;
     line-height: 1.2;

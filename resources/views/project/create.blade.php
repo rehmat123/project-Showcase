@@ -11,7 +11,7 @@
       @endif
     @endforeach
   </div> <!-- end .flash-message -->
-   <div class="col-xs-12">
+   <div class="col-xs-12 white">
       <h2><i class="fa fa-fw fa-cogs secondary"></i><font><font class=""> Add New Project Detail</font></font></h2>
       <p class="grey"><font><font>You can edit your Project in the </font></font><a ><font><font>profile</font></font></a><font><font> settings.</font></font></p>
     </div>

@@ -11,14 +11,14 @@
       @endif
     @endforeach
   </div> <!-- end .flash-message -->
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-10 col-md-offset-1 login">
             <div class="panel panel-default">
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                     <a href="/project/create"> Add Project</a><br>
-                     <a href="/project/all"> Search Projects</a><br>
-                     <a href="/project/edit"> Update Projects</a>
+                     <a href="/project/create" class="black"> Add Project</a><br>
+                     <a href="/project/all" class="black"> Search Projects</a><br>
+                     <a href="/project/edit" class="black"> Update Projects</a>
                 </div>
             </div>
         </div>

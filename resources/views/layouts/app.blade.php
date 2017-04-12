@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Project Showcase</title>
+    <title>Logo Showcase</title>
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
      <script type="text/javascript" src="{{ URL::asset('js/script.js') }}"></script>
      <link rel="stylesheet"  />
@@ -39,7 +39,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Project Showcase
+                    Logo Showcase
                 </a>
             </div>
 

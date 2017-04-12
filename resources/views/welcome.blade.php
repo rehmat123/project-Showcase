@@ -4,6 +4,7 @@
 <div class="content">
 
 <div id="post-data">
+<div class="heading-title"><h1>Upload your logos to create your very own company logo portfolio</h1></div>
     @include('data')
   </div>
 </div>

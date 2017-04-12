@@ -89,7 +89,7 @@ class ProjectController extends Controller
             return response()->json(['html'=>$view]);
         }
 
-        return view('project.search',compact('project'));
+        return view('welcome',compact('project'));
     }
 
 
