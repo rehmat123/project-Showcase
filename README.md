@@ -26,3 +26,6 @@ LARAVEL 5.5
 License
 
 The Laravel logo showcase is open-sourced software licensed under the MIT license
+ 
+ DEMO
+ View the app here: http://www.conepoint.com/showcase/public/index.php
